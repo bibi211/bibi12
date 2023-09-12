@@ -1,0 +1,41 @@
+AS A customer
+
+I WANT to search and sort the list of deserts
+
+SO THAT I can successfully book my choosan one
+
+Scope
+
+·         customer should able to search successfully
+
+·         customer should be able to sort the searched list
+
+·         it should work in all the browser
+
+·         it should also work in mobile
+
+Pre condition
+
+·         customer should have email and phone number
+
+Acceptance criteria
+
+Scenario 1: customer can successfully search and sort the list
+
+·         “Given” I am on search bar
+
+·         “And” I search a deserts
+
+·         “And” I sorted the searched list
+
+·         “Then” I selected one
+
+Scenario 2:: customer can’t successfully search and sort the list
+
+·         “Given” I am on search bar
+
+·         “And” I search invalid  deserts
+
+·         “And” I’m not abeled to sort the searched list
+
+·         “Then” I can’t able to search and sort
